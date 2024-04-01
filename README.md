@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
+# Example Reference
+This is the [example](https://angular.io/start).
+
 ## Take a tour of the example application
 You build Angular applications with components. Components define areas of responsibility in the UI that let you reuse sets of UI functionality.
 
