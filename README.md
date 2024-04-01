@@ -22,4 +22,5 @@ This guide demonstrates building an application with the following components:
 |```<app-product-alerts>```	|A component that contains the application's alerts|
 
 ![App Screenshot](https://angular.io/generated/images/guide/start/app-components.png)
+\
 For more information about components, see [Introduction to Components](https://angular.io/guide/architecture-components).
