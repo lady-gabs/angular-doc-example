@@ -2,26 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
-## Development server
+## Take a tour of the example application
+You build Angular applications with components. Components define areas of responsibility in the UI that let you reuse sets of UI functionality.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A component consists of three things:
 
-## Code scaffolding
+## COMPONENT PART	DETAILS
+A component class	Handles data and functionality
+An HTML template	Determines the UI
+Component-specific styles	Define the look and feel
+This guide demonstrates building an application with the following components:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### COMPONENTS	DETAILS
+| Component | Details |
+| ------- | ------- |
+|``` <app-root> ``` | The first component to load and the container for the other components |
+|```<app-top-bar>```|	The store name and checkout button |
+|```<app-product-list>``` |The product list|
+|```<app-product-alerts>```	|A component that contains the application's alerts|
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![App Screenshot](https://angular.io/generated/images/guide/start/app-components.png)
+For more information about components, see [Introduction to Components](https://angular.io/guide/architecture-components).
