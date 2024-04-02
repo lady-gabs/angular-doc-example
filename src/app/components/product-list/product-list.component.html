@@ -7,7 +7,9 @@
             </a>
         </h3>
         <p *ngIf="product.description"><b>Description:</b> {{product.description}}</p>
-        <button (click)="share()">Share</button>
-        <app-product-alerts [cellProduct]="product" (notify)="onNotify()"></app-product-alerts>
+        <div class="buttons">
+            <button id="shareButton" (click)="share()">Share</button>
+            <app-product-alerts [cellProduct]="product" (notify)="onNotify()"></app-product-alerts>
+        </div>
     </div>
 </div>

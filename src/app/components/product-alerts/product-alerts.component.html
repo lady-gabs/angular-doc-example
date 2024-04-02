@@ -1,3 +1,3 @@
-<p *ngIf="cellProduct && cellProduct.price > 700">
+<div *ngIf="cellProduct && cellProduct.price > 700">
     <button type="button" (click)="notify.emit()">Notify Me</button>
-</p>
+</div>

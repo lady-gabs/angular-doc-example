@@ -1,3 +1,9 @@
 .class {
     margin-left: 20px;
 }
+.buttons {
+    display: flex;
+}
+#shareButton {
+    margin-right: 5px;
+}
